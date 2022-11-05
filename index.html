@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Shop</title>
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+    <h1>Welcome in My shop</h1>
+    <section class="products">
+        <h2>Produkty:</h2>
+        <ul>
+            <li>'Stacja dokująca do laptopa' - 1519.1 
+                <button class="btn-buy" data-name="dockingStation" data-price="1519.1">Dodaj do koszyka</button>
+            </li>
+            <li>'Mysz do gier' - 122.98 
+                <button class="btn-buy" data-name="gamingMouse" data-price="122.98">Dodaj do koszyka</button>
+            </li>
+            <li>'klawiatura do gier' - 525.8
+                <button class="btn-buy" data-name="gamingKeyeboard" data-price="525.8">Dodaj do koszyka</button>
+            </li>
+        </ul>
+    </section>
+
+    <section class="basket">
+        <h2>Twój koszyk:</h2>
+        <ul>
+            <li class="basket-list"></li>
+        </ul>
+        <button class="btn-buy-all" disabled>Zakup produkty !</button>
+    </section>     
+    
+    <script src="scripts/scripts.js"></script>
+    <script src="scripts/basket.js"></script>
+    <script src="scripts/userInterface.js"></script>
+</body>
+</html>

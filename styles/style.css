@@ -12,8 +12,16 @@ li{
 list-style-type: none;
 padding:10px;
 }
-button{
+button,
+input {
     background-color:rgb(252, 232, 207);
     border-width: 0;
     border-radius: 5px;
+}
+button:hover {
+    background-color: rgb(252, 242, 227);
+}
+
+input:hover {
+    background-color: rgb(252, 242, 227);
 }

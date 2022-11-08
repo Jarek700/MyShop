@@ -51,3 +51,4 @@ const removeItem = event =>{
     basket.removeItem(id);
     renderBasket();
 }
+renderBasket();

@@ -11,14 +11,14 @@
     <h1>Welcome in My shop</h1>
     <section class="products">
         <h2>Produkty:</h2>
-        <ul>
-            <li>'Stacja dokująca do laptopa' - 1519.1 
+        <ul class="products-list">
+            <li><strong>'Stacja dokująca do laptopa'</strong> - 1519.1
                 <button class="btn-buy" data-name="dockingStation" data-price="1519.1">Dodaj do koszyka</button>
             </li>
-            <li>'Mysz do gier' - 122.98 
+            <li><strong>'Mysz do gier'</strong> - 122.98
                 <button class="btn-buy" data-name="gamingMouse" data-price="122.98">Dodaj do koszyka</button>
             </li>
-            <li>'klawiatura do gier' - 525.8
+            <li><strong>'klawiatura do gier'</strong> - 525.8
                 <button class="btn-buy" data-name="gamingKeyeboard" data-price="525.8">Dodaj do koszyka</button>
             </li>
         </ul>
@@ -30,10 +30,19 @@
             <li class="basket-list"></li>
         </ul>
         <button class="btn-buy-all" disabled>Zakup produkty !</button>
-    </section>     
+    </section>
     
+    <section class="admin-add-items">
+        <h2>Administrator, dodaj produkty:</h2>
+        <form class="form-add-product">
+            <input type="text" name="product-name" placeholder="podaj nazwę produktu" required>
+            <input type="number" name="product-price" placeholder="podaj cenę produktu" required>
+            <input type="submit">
+        </form>
+    </section>
     <script src="scripts/scripts.js"></script>
     <script src="scripts/basket.js"></script>
     <script src="scripts/userInterface.js"></script>
+    <script src="scripts/adminUi.js"></script>
 </body>
 </html>
